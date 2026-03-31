@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .prose p {
+    margin-bottom: 0.5rem;
+  }
+  .prose pre {
+    background-color: #1e1e1e !important;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+  }
+  .prose code {
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 0.125rem 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 0.875em;
+  }
+  .prose pre code {
+    background-color: transparent;
+    padding: 0;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
