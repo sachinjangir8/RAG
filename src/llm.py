@@ -24,7 +24,7 @@ RULES:
 """
 
 # Use newer gemini model available on the API key
-MODEL = "gemini-2.0-flash"
+MODEL = "gemini-2.5-flash"
 
 
 class GeminiLLM:
